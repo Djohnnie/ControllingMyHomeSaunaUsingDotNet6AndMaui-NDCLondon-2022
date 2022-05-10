@@ -521,8 +521,7 @@ public class MainViewModel : ViewModelBase
         }
         else
         {
-            //Countdown = string.Empty;
-            Countdown = "59:33";
+            Countdown = string.Empty;
         }
 
         return Task.CompletedTask;
